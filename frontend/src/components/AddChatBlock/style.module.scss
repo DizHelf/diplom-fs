@@ -1,0 +1,30 @@
+.MessageBlock {
+  background-color: white;
+  height: 80%;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.suggestions {
+  list-style: none;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.input {
+  width: 60%;
+  padding: 10px;
+}

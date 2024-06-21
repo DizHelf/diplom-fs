@@ -1,0 +1,35 @@
+.root {
+  display: flex;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 17px;
+}
+
+.avatar {
+  margin-right: 15px;
+}
+
+.form {
+  width: 100%;
+
+  button {
+    margin-top: 10px;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.delete {
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  min-width: 64px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  border: 2px solid black;
+  color: black;
+  cursor: pointer;
+}

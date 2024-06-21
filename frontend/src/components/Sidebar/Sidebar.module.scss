@@ -1,0 +1,42 @@
+.sidebar {
+  background-color: white;
+  height: 80%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}
+
+.chats {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+  gap: 20px;
+}
+
+.listItem {
+  display: flex;
+  justify-content: center;
+  width: min-content;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+
+  &:hover {
+    color: #4361ee;
+    transition: 0.2s;
+  }
+}
+
+.titleSidebar {
+  margin: 0px 0px 10px 0px;
+}

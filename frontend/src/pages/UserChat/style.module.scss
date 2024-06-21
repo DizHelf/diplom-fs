@@ -1,0 +1,12 @@
+.UserChat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  height: 90vh;
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  padding: 25px 50px;
+}
