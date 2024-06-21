@@ -1,0 +1,17 @@
+{
+  "name": "diplom-fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:frontend": "cd frontend && npm run start",
+    "start:backend": "cd backend && npm run serve",
+    "start:all": "concurrently \"npm run start:frontend\" \"npm run start:backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
